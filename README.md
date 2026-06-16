@@ -1,1 +1,0 @@
-# DN-5.0-Hands-on-solution
