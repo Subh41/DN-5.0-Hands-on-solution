@@ -1,0 +1,160 @@
+
+
+Table SAVINGS_ACCOUNTS created.
+
+Elapsed: 00:00:00.015
+
+
+Table EMPLOYEES created.
+
+Elapsed: 00:00:00.011
+
+
+Table ACCOUNTS created.
+
+Elapsed: 00:00:00.011
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.014
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.011
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.011
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+Elapsed: 00:00:00.014
+
+Monthly interest processed for all savings accounts.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+ACCOUNT_ID CUSTOMER_ID BALANCE INTEREST_RATE 
+---------- ----------- ------- ------------- 
+101        1           5050    0.01          
+102        2           10100   0.01          
+103        3           7575    0.01          
+
+Elapsed: 00:00:00.005
+3 rows selected. 
+
+ACCOUNT_ID CUSTOMER_ID BALANCE INTEREST_RATE 
+---------- ----------- ------- ------------- 
+101        1           5050    0.01          
+102        2           10100   0.01          
+103        3           7575    0.01          
+
+Elapsed: 00:00:00.011
+3 rows selected. 
+
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+Elapsed: 00:00:00.024
+
+Bonus applied to 2 employees in Loans department.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.013
+EMPLOYEE_ID NAME            DEPARTMENT SALARY PERFORMANCE_RATING 
+----------- --------------- ---------- ------ ------------------ 
+1           John Smith      Loans      55000  4.5                
+3           Michael Brown   Loans      66000  4.2                
+
+Elapsed: 00:00:00.008
+2 rows selected. 
+
+
+
+Procedure TRANSFERFUNDS compiled
+
+Elapsed: 00:00:00.025
+
+Successfully transferred $500 from account 201 to account 202
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.014
+ACCOUNT_ID CUSTOMER_ID ACCOUNT_TYPE BALANCE 
+---------- ----------- ------------ ------- 
+201        1           Checking     2000    
+202        1           Savings      5500    
+
+Elapsed: 00:00:00.008
+2 rows selected. 
+
+ACCOUNT_ID BALANCE 
+---------- ------- 
+101        5050    
+102        10100   
+103        7575    
+
+Elapsed: 00:00:00.004
+3 rows selected. 
+
+EMPLOYEE_ID NAME            SALARY DEPARTMENT 
+----------- --------------- ------ ---------- 
+1           John Smith      55000  Loans      
+3           Michael Brown   66000  Loans      
+
+Elapsed: 00:00:00.008
+2 rows selected. 
+
+ACCOUNT_ID BALANCE 
+---------- ------- 
+201        2000    
+202        5500    
+
+Elapsed: 00:00:00.004
+2 rows selected. 
+
