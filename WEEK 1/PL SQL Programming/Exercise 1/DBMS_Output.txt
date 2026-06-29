@@ -1,0 +1,12 @@
+Applied 1% discount to customer John Doe. New rate: 4%
+Applied 1% discount to customer Robert Brown. New rate: 5%
+Discount application complete.
+
+Promoted customer Jane Smith to VIP status. Balance: $15000
+Promoted customer Alice Green to VIP status. Balance: $12000
+VIP promotion complete.
+
+REMINDER: Customer John Doe has a loan due on 27-JUL-2025. Please contact them for payment arrangements.
+REMINDER: Customer Robert Brown has a loan due on 27-JUL-2025. Please contact them for payment arrangements.
+Reminder process complete.
+

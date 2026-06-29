@@ -1,0 +1,93 @@
+
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.019
+
+
+Table LOANS created.
+
+Elapsed: 00:00:00.014
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.016
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.013
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+Applied 1% discount to customer John Doe. New rate: 4%
+Applied 1% discount to customer Robert Brown. New rate: 5%
+Discount application complete.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.092
+
+Promoted customer Jane Smith to VIP status. Balance: $15000
+Promoted customer Alice Green to VIP status. Balance: $12000
+VIP promotion complete.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.089
+
+REMINDER: Customer John Doe has a loan due on 27-JUL-2025. Please contact them for payment arrangements.
+REMINDER: Customer Robert Brown has a loan due on 27-JUL-2025. Please contact them for payment arrangements.
+Reminder process complete.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.019
+NAME           AGE CURRENT_LOAN_INTEREST_RATE 
+-------------- --- -------------------------- 
+John Doe       65  4                          
+Robert Brown   70  5                          
+
+Elapsed: 00:00:00.004
+2 rows selected. 
+
+NAME          BALANCE IS_VIP 
+------------- ------- ------ 
+Jane Smith    15000   TRUE   
+Alice Green   12000   TRUE   
+
+Elapsed: 00:00:00.005
+2 rows selected. 
+
